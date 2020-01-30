@@ -142,7 +142,7 @@ const Projects = () => {
             </p>
             <p>
               This app was developed in a group of four other new developers. As
-              our first group project, manageLazily was an excercise in putting
+              our first group project, manageLazily was an exercise in putting
               to use all we had learned about creating web apps and learning
               what it's like to work as part of a team. We also had the
               opportunity to learn how to work with Firebase as our database.
@@ -191,7 +191,7 @@ const Projects = () => {
               chance added to the adoption experience.
             </p>
             <p>
-              This app was an excercise in building off of an existing codebase,
+              This app was an exercise in building off of an existing codebase,
               implementing all of the processes for the queue system, and
               tailoring the features to a very specific set of user stories.
               Beyond these challenges, the idea for the project was to implement
@@ -245,7 +245,7 @@ const Projects = () => {
               device.
             </p>
             <p>
-              This app was developed as an excercise in building on top of an
+              This app was developed as an exercise in building on top of an
               existing code base, design, and using data structure theory in a
               practical setting.
             </p>
