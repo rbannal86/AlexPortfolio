@@ -1,0 +1,37 @@
+.contact__main_div {
+  width: 100vw;
+  border: 2px solid black;
+  padding: 5%;
+  padding-top: 0;
+  color: #f5edf0;
+  background-color: #274060;
+  margin-bottom: 5%;
+}
+
+.contact__title {
+  text-shadow: 2px 2px 8px black;
+}
+
+.contact__main_div a {
+  text-decoration: none;
+  color: #f5edf0;
+}
+
+.contact__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media only screen and (min-width: 1024px) {
+  .contact__main_div {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .contact__main_div {
+    width: 90vw;
+    margin: 2%;
+  }
+}

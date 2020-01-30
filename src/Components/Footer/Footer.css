@@ -1,0 +1,31 @@
+.footer__main {
+  width: 100vw;
+  background-color: #424b54;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.footer__main button {
+  color: #f5edf0;
+  width: 100%;
+  background-color: #424b54;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer__main {
+    font-size: 1.5rem;
+    border: 2px solid black;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .footer__main {
+    height: 5%;
+  }
+  .footer__main button {
+    font-size: 1.5rem;
+  }
+}

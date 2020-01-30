@@ -1,0 +1,26 @@
+.header__main {
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  width: 100vw;
+  background-color: #550c18;
+  color: #f5edf0;
+  border: 2px solid black;
+  text-shadow: 2px 2px 8px black;
+  margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .header__main {
+    font-size: 1.5rem;
+    padding-top: 5%;
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .header__main {
+    width: 90vw;
+    margin: 2%;
+  }
+}

@@ -1,0 +1,30 @@
+.navbar__navbar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: #424b54;
+  width: 100vw;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+  top: 0;
+  z-index: 100;
+  border-bottom: 2px black solid;
+}
+
+.navbar__button {
+  border: none;
+  font-size: 0.9rem;
+  padding: 2%;
+  font-weight: bold;
+  color: #f5edf0;
+  background-color: #424b54;
+  padding-bottom: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar__button {
+    font-size: 1.5rem;
+  }
+}

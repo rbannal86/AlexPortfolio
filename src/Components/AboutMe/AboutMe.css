@@ -1,0 +1,28 @@
+.aboutme__copy {
+  padding-top: 5%;
+  background-color: #274060;
+  width: 100vw;
+  line-height: 1.3;
+  padding: 5%;
+  border: 2px black solid;
+  color: #f5edf0;
+  margin-bottom: 5%;
+}
+
+.aboutme__title {
+  text-shadow: 2px 2px 8px black;
+}
+
+@media only screen and (min-width: 1024px) {
+  .aboutme__copy {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .aboutme__copy {
+    width: 90vw;
+    margin: 2%;
+  }
+}
