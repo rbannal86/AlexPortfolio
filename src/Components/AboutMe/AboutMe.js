@@ -20,6 +20,13 @@ const AboutMe = () => {
         doesn't involve the occasional ER visit.
       </p>
       <p>
+        What excites me the most about getting into web development is the
+        prospect of working with a great team. Throughout my programming
+        education, the most meaningful and productive experiences I've had have
+        involved working with fellow students, and I am looking forward to
+        making that aspect of programming a part of my life.
+      </p>
+      <p>
         When I'm not working, you can find me rewatching the same shows on
         Netflix, trying out new recipes in the kitchen, or just hanging out with
         my wife, my dog, and my two cats.

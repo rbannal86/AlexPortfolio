@@ -5,52 +5,170 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const Projects = () => {
   const bpImages = [
-    { original: "Images/bp1.png", description: "Landing Page for New Users" },
-    { original: "Images/bp2.png", description: "Information Page" },
-    { original: "Images/bp3.png", description: "Registration Page" },
+    {
+      original: "Images/bp1.png",
+      description: "Landing Page for New Users",
+      originalAlt: "Landing Page"
+    },
+    {
+      original: "Images/bp2.png",
+      description: "Information Page",
+      originalAlt: "Information Page"
+    },
+    {
+      original: "Images/bp3.png",
+      description: "Registration Page",
+      originalAlt: "Registration Page"
+    },
     {
       original: "Images/bp4.png",
-      description: "Landing Page for Returning Users"
+      description: "Landing Page for Returning Users",
+      originalAlt: "Landing Page for returning users"
     },
-    { original: "Images/bp5.png", description: "Letter Writing Page" },
+    {
+      original: "Images/bp5.png",
+      description: "Letter Writing Page",
+      originalAlt: "Letter Writing Page"
+    },
     {
       original: "Images/bp6.png",
-      description: "First Letter Description Page"
+      description: "First Letter Description Page",
+      originalAlt: "First Letter Description Page"
     },
-    { original: "Images/bp7.png", description: "User Dashboard" },
-    { original: "Images/bp8.png", description: "Conversation Page" },
-    { original: "Images/bp9.png", description: "Conversation Details Page" },
-    { original: "Images/bp10.png", description: "Letter Page" },
-    { original: "Images/bp11.png", description: "Received Letter Page" },
-    { original: "Images/bp12.png", description: "Conversation History Page" }
+    {
+      original: "Images/bp7.png",
+      description: "User Dashboard",
+      originalAlt: "User Dashboard"
+    },
+    {
+      original: "Images/bp8.png",
+      description: "Conversation Page",
+      originalAlt: "Conversation Page"
+    },
+    {
+      original: "Images/bp9.png",
+      description: "Conversation Details Page",
+      originalAlt: "Conversation Details Page"
+    },
+    {
+      original: "Images/bp10.png",
+      description: "Letter Page",
+      originalAlt: "Letter Page"
+    },
+    {
+      original: "Images/bp11.png",
+      description: "Received Letter Page",
+      originalAlt: "Received Letter Page"
+    },
+    {
+      original: "Images/bp12.png",
+      description: "Conversation History Page",
+      originalAlt: "Conversation History Page"
+    }
   ];
 
   const mlImages = [
-    { original: "Images/ml1.png", description: "Landing Page" },
-    { original: "Images/ml2.png", description: "Registration Page" },
-    { original: "Images/ml3.png", description: "Login Page" },
-    { original: "Images/ml4.png", description: "User Dashboard" },
-    { original: "Images/ml5.png", description: "Employee Profile Page" },
-    { original: "Images/ml6.png", description: "Create Project Page" },
-    { original: "Images/ml7.png", description: "Project Page" },
-    { original: "Images/ml8.png", description: "Add Job Form" },
-    { original: "Images/ml9.png", description: "Edit Project Form" },
-    { original: "Images/ml10.png", description: "Edit Job Form" },
-    { original: "Images/ml11.png", description: "Log Hours Form" },
-    { original: "Images/ml12.png", description: "Catch-All Page for Errors" }
+    {
+      original: "Images/ml1.png",
+      description: "Landing Page",
+      originalAlt: "Landing Page"
+    },
+    {
+      original: "Images/ml2.png",
+      description: "Registration Page",
+      originalAlt: "Registration Page"
+    },
+    {
+      original: "Images/ml3.png",
+      description: "Login Page",
+      originalAlt: "Login Page"
+    },
+    {
+      original: "Images/ml4.png",
+      description: "User Dashboard",
+      originalAlt: "User Dashboard"
+    },
+    {
+      original: "Images/ml5.png",
+      description: "Employee Profile Page",
+      originalAlt: "Employee Profile Page"
+    },
+    {
+      original: "Images/ml6.png",
+      description: "Create Project Page",
+      originalAlt: "Create Project Page"
+    },
+    {
+      original: "Images/ml7.png",
+      description: "Project Page",
+      originalAlt: "Project Page"
+    },
+    {
+      original: "Images/ml8.png",
+      description: "Add Job Form",
+      originalAlt: "Add Job Form"
+    },
+    {
+      original: "Images/ml9.png",
+      description: "Edit Project Form",
+      originalAlt: "Edit Project Form"
+    },
+    {
+      original: "Images/ml10.png",
+      description: "Edit Job Form",
+      originalAlt: "Edit Job Form"
+    },
+    {
+      original: "Images/ml11.png",
+      description: "Log Hours Form",
+      originalAlt: "Log Hours Form"
+    },
+    {
+      original: "Images/ml12.png",
+      description: "Catch-All Page for Errors",
+      originalAlt: "Catch-All Page for Errors"
+    }
   ];
 
   const petsImages = [
-    { original: "Images/pet1.png", description: "Adoption Page" },
-    { original: "Images/pet2.png", description: "Available Pets Page" },
-    { original: "Images/pet3.png", description: "Success Stories Page" }
+    {
+      original: "Images/pet1.png",
+      description: "Adoption Page",
+      originalAlt: "Adoption Page"
+    },
+    {
+      original: "Images/pet2.png",
+      description: "Available Pets Page",
+      originalAlt: "Available Pets Page"
+    },
+    {
+      original: "Images/pet3.png",
+      description: "Success Stories Page",
+      originalAlt: "Success Stories Page"
+    }
   ];
 
   const srImages = [
-    { original: "Images/sr1.png", description: "Registration Page" },
-    { original: "Images/sr2.png", description: "Login Page" },
-    { original: "Images/sr3.png", description: "User Dashboard" },
-    { original: "Images/sr4.png", description: "Translation Page" },
+    {
+      original: "Images/sr1.png",
+      description: "Registration Page",
+      originalAlt: "Registration Page"
+    },
+    {
+      original: "Images/sr2.png",
+      description: "Login Page",
+      originalAlt: "Login Page"
+    },
+    {
+      original: "Images/sr3.png",
+      description: "User Dashboard",
+      originalAlt: "User Dashboard"
+    },
+    {
+      original: "Images/sr4.png",
+      description: "Translation Page",
+      originalAlt: "Translation Page"
+    },
     {
       original: "Images/sr5.png",
       description: "Result Page for Correct Answer"
@@ -116,13 +234,15 @@ const Projects = () => {
             <ImageGallery items={bpImages} showThumbnails={false} />
           </div>
           <div className="projects__project_links">
-            <a href="https://github.com/rbannal86/briefpal">
+            <a href="https://github.com/rbannal86/briefpal" target="blank">
               Client GitHub Repo
             </a>
-            <a href="https://github.com/rbannal86/briefpal-api">
+            <a href="https://github.com/rbannal86/briefpal-api" target="blank">
               Server GitHub Repo
             </a>
-            <a href="https://briefpal.now.sh/">Live App</a>
+            <a href="https://briefpal.now.sh/" target="blank">
+              Live App
+            </a>
           </div>
         </li>
         <li className="projects__list_item">
@@ -171,10 +291,15 @@ const Projects = () => {
             <ImageGallery items={mlImages} showThumbnails={false} />
           </div>
           <div className="projects__project_links">
-            <a href="https://github.com/balayaydemir/Capstone-Group3-Client">
+            <a
+              href="https://github.com/balayaydemir/Capstone-Group3-Client"
+              target="blank"
+            >
               GitHub Repo
             </a>
-            <a href="https://managelazily.com/demo">Live App</a>
+            <a href="https://managelazily.com/demo" target="blank">
+              Live App
+            </a>
           </div>
         </li>
         <li className="projects__list_item">
@@ -225,13 +350,21 @@ const Projects = () => {
             <ImageGallery items={petsImages} showThumbnails={false} />
           </div>
           <div className="projects__project_links">
-            <a href="https://github.com/thinkful-ei-heron/petful_client_alex_shannon">
+            <a
+              href="https://github.com/thinkful-ei-heron/petful_client_alex_shannon"
+              target="blank"
+            >
               Client GitHub Repo
             </a>
-            <a href="https://github.com/thinkful-ei-heron/petful_server_alex_shannon">
+            <a
+              href="https://github.com/thinkful-ei-heron/petful_server_alex_shannon"
+              target="blank"
+            >
               Server GitHub Repo
             </a>
-            <a href="https://petful-client.rbannal.now.sh/">Live App</a>
+            <a href="https://petful-client.rbannal.now.sh/" target="blank">
+              Live App
+            </a>
           </div>
         </li>
         <li className="projects__list_item">
@@ -277,13 +410,22 @@ const Projects = () => {
             <ImageGallery items={srImages} showThumbnails={false} />
           </div>
           <div className="projects__project_links">
-            <a href="https://github.com/thinkful-ei-heron/spaced-repetition-client-alex-sean">
+            <a
+              href="https://github.com/thinkful-ei-heron/spaced-repetition-client-alex-sean"
+              target="blank"
+            >
               Client GitHub Repo
             </a>
-            <a href="https://github.com/thinkful-ei-heron/spaced-repetition-api-alex-sean">
+            <a
+              href="https://github.com/thinkful-ei-heron/spaced-repetition-api-alex-sean"
+              target="blank"
+            >
               Server GitHub Repo
             </a>
-            <a href="https://spaced-repetition-client.rbannal.now.sh/">
+            <a
+              href="https://spaced-repetition-client.rbannal.now.sh/"
+              target="blank"
+            >
               Live App
             </a>
           </div>
