@@ -4,6 +4,28 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const Projects = () => {
+  const sprackImages = [
+    {
+      original: "Images/sprackDashboard.png",
+      description: "Spice Dashboard",
+      originalAlt: "Sprack User Dashboard",
+    },
+    {
+      original: "Images/sprackAddSpice.png",
+      description: "Adding Spice Form",
+      originalAlt: "Adding Spice",
+    },
+    {
+      original: "Images/sprackFilter.png",
+      description: "Filtering Spice Rack",
+      originalAlt: "Filtering Spice Rack",
+    },
+    {
+      original: "Images/sprackUpdateLevels.png",
+      description: "Changing Spice Levels",
+      originalAlt: "Changing Spice Levels",
+    },
+  ];
   const bpImages = [
     {
       original: "Images/bp1.png",
@@ -157,6 +179,49 @@ const Projects = () => {
     <div className="projects__main_div" id="projects__top">
       <h2 className="projects__title">Projects</h2>
       <ul className="projects__project_list">
+        <li className="projects__list_item">
+          <h3 className="projects__project_title">sprack</h3>
+          <div className="projects__project_description">
+            <p>
+              Sprack is a simple-to-use spice rack app designed with the simple
+              upkeep of the user's data in mind. Each spice display is easy to
+              use, with the main focus on being able to manipulate the spice
+              displays on mobile devices. This app also utilizes icons from
+              Material-UI for quickly-identified options and actions, as well as
+              ReactTooltip for unobtrusive explanations of the various icons.
+            </p>
+          </div>
+          <div className="projects__project_stack">
+            <img
+              src="https://img.shields.io/badge/JavaScript-yellow"
+              alt="javascript shield"
+            />
+            <img src="https://img.shields.io/badge/CSS-blue" alt="css shield" />
+            <img
+              src="https://img.shields.io/badge/HTML-red"
+              alt="html shield"
+            />
+            <img
+              src="https://img.shields.io/badge/React-lightblue"
+              alt="react shield"
+            />
+            <img
+              src="https://img.shields.io/badge/Firebase-orange"
+              alt="firebase shield"
+            />
+          </div>
+          <div className="projects__project_screenshots">
+            <ImageGallery items={sprackImages} showThumbnails={false} />
+          </div>
+          <div className="projects__project_links">
+            <a href="https://github.com/rbannal86/sprack" target="blank">
+              GitHub Repo
+            </a>
+            <a href="https://sprack.vercel.app/" target="blank">
+              Live App
+            </a>
+          </div>
+        </li>
         <li className="projects__list_item">
           <h3 className="projects__project_title">briefPal</h3>
           <div className="projects__project_description">
@@ -324,7 +389,7 @@ const Projects = () => {
             <a href="https://github.com/rbannal86/10BooksServer" target="blank">
               Server GitHub Repo
             </a>
-            <a href="https://https://10books.vercel.app/" target="blank">
+            <a href="https://10books.vercel.app/" target="blank">
               Live App
             </a>
           </div>
