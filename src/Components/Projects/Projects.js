@@ -4,6 +4,63 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const Projects = () => {
+  const dogDaysImages = [
+    {
+      original: "Images/dd1.png",
+      description: "Week Calendar View",
+      originalAlt: "Week Calendar View",
+    },
+    {
+      original: "Images/dd2.png",
+      description: "Month Calendar View",
+      originalAlt: "Month Calendar View",
+    },
+    {
+      original: "Images/dd3.png",
+      description: "Year Calendar View",
+      originalAlt: "Year Calendar View",
+    },
+    {
+      original: "Images/dd4.png",
+      description: "Add Activities Form Type",
+      originalAlt: "Add Activities Form Type",
+    },
+    {
+      original: "Images/dd5.png",
+      description: "Add Activities Form Quality",
+      originalAlt: "Add Activities Form Quality",
+    },
+    {
+      original: "Images/dd6.png",
+      description: "Activities Details List",
+      originalAlt: "Activities Details List",
+    },
+    {
+      original: "Images/dd7.png",
+      description: "Dog Details",
+      originalAlt: "Dog Details",
+    },
+    {
+      original: "Images/dd8.png",
+      description: "Edit Dog Details",
+      originalAlt: "Edit Dog Details",
+    },
+    {
+      original: "Images/dd9.png",
+      description: "Delete Dog",
+      originalAlt: "Delete Dog",
+    },
+    {
+      original: "Images/dd10.png",
+      description: "Add Dog Form",
+      originalAlt: "Add Dog Form",
+    },
+    {
+      original: "Images/dd11.png",
+      description: "Select Dog List",
+      originalAlt: "Select Dog List",
+    },
+  ];
   const sprackImages = [
     {
       original: "Images/sprackDashboard.png",
@@ -88,7 +145,6 @@ const Projects = () => {
       originalAlt: "Conversation History Page",
     },
   ];
-
   const mlImages = [
     {
       original: "Images/ml1.png",
@@ -151,7 +207,6 @@ const Projects = () => {
       originalAlt: "Catch-All Page for Errors",
     },
   ];
-
   const tbImages = [
     {
       original: "Images/tb2.png",
@@ -179,6 +234,54 @@ const Projects = () => {
     <div className="projects__main_div" id="projects__top">
       <h2 className="projects__title">Projects</h2>
       <ul className="projects__project_list">
+        <li className="projects__list_item">
+          <h3 className="projects__project_title">dogDays</h3>
+          <div className="projects__project_description">
+            <p>
+              DogDays is a dog "mood" tracking app, inspired by the current
+              trend of visually-appealing mood tracking apps. The main function
+              of dogDays is to allow a user to rate various activities
+              undertaken with their dog and takes the average rating for all
+              activities of each day and displays the ratings in a calendar
+              view. The different levels of ratings determines the color of the
+              day on the calendar, allowing the user to see, via the color
+              gradient, any trends for the dog's activities. This app is mainly
+              designed with people who are training their dog, or having trouble
+              with the dog's behavior. Seeing improvemnt or trends should help
+              with morale for the user.
+            </p>
+          </div>
+          <div className="projects__project_stack">
+            <img
+              src="https://img.shields.io/badge/JavaScript-yellow"
+              alt="javascript shield"
+            />
+            <img src="https://img.shields.io/badge/CSS-blue" alt="css shield" />
+            <img
+              src="https://img.shields.io/badge/HTML-red"
+              alt="html shield"
+            />
+            <img
+              src="https://img.shields.io/badge/React-lightblue"
+              alt="react shield"
+            />
+            <img
+              src="https://img.shields.io/badge/Firebase-orange"
+              alt="firebase shield"
+            />
+          </div>
+          <div className="projects__project_screenshots">
+            <ImageGallery items={dogDaysImages} showThumbnails={false} />
+          </div>
+          <div className="projects__project_links">
+            <a href="https://github.com/rbannal86/dogDays" target="blank">
+              GitHub Repo
+            </a>
+            <a href="https://dogdays.vercel.app/" target="blank">
+              Live App
+            </a>
+          </div>
+        </li>
         <li className="projects__list_item">
           <h3 className="projects__project_title">sprack</h3>
           <div className="projects__project_description">
