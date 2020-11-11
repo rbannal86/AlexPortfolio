@@ -229,11 +229,93 @@ const Projects = () => {
       originalAlt: "Search Results for Chaucer",
     },
   ];
+  const tsImages = [
+    {
+      original: "Images/toescissorsmain.png",
+      description: "Game Board",
+      originalAlt: "Game Board",
+    },
+    {
+      original: "Images/toescissorsfirstmove.png",
+      description: "The user makes a move",
+      originalAlt: "The user makes a move",
+    },
+    {
+      original: "Images/toescissorscomputermove.png",
+      description: "The computer makes a move",
+      originalAlt: "The computer makes a move",
+    },
+    {
+      original: "Images/toescissorscontestingtile.png",
+      description: "Challenging a tile",
+      originalAlt: "Challenging a tile",
+    },
+    {
+      original: "Images/toescissorstie.png",
+      description: "Tie Showdown!",
+      originalAlt: "Tie Showdown!",
+    },
+    {
+      original: "Images/toescissorstieagain.png",
+      description: "Tie Showdown Continues!",
+      originalAlt: "Tie Showdown Continues!",
+    },
+    {
+      original: "Images/toescissorstiewinner.png",
+      description: "A Winner Emerges!",
+      originalAlt: "A Winner Emerges!",
+    },
+    {
+      original: "Images/toescissorsgamewinner.png",
+      description: "Game Over!",
+      originalAlt: "Game Over!",
+    },
+  ];
 
   return (
     <div className="projects__main_div" id="projects__top">
       <h2 className="projects__title">Projects</h2>
       <ul className="projects__project_list">
+        <li className="projects__list_item">
+          <h3 className="projects__project_title">TOE SCISSORS</h3>
+          <div className="projects__project_description">
+            <p>
+              TOE SCISSORS is a blend of Rock Paper Scissors and Tic-Tac-Toe,
+              wrapped in a retro 8-bit style. Relatively simple from a front end
+              perspective, the meat of this project is in the AI. Featuring
+              three different computer difficulties, from completely random, to
+              an aggressive approach, the bulk of development was spent writing
+              thorough checks in the AI service object. The goal was to create a
+              clean interface with a complex system running in the background.
+            </p>
+          </div>
+          <div className="projects__project_stack">
+            <img
+              src="https://img.shields.io/badge/JavaScript-yellow"
+              alt="javascript shield"
+            />
+            <img src="https://img.shields.io/badge/CSS-blue" alt="css shield" />
+            <img
+              src="https://img.shields.io/badge/HTML-red"
+              alt="html shield"
+            />
+            <img
+              src="https://img.shields.io/badge/React-lightblue"
+              alt="react shield"
+            />
+          </div>
+          <div className="projects__project_screenshots">
+            <ImageGallery items={tsImages} showThumbnails={false} />
+          </div>
+          <div className="projects__project_links">
+            <a href="https://github.com/rbannal86/toeScissors" target="blank">
+              GitHub Repo
+            </a>
+            <a href="https://toescissors.vercel.app/" target="blank">
+              Live App
+            </a>
+          </div>
+        </li>
         <li className="projects__list_item">
           <h3 className="projects__project_title">dogDays</h3>
           <div className="projects__project_description">
